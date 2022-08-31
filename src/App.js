@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+// import './app.css';
+// import Nav from './Nav';
+
+import Home from './pages/home';
+import Web3 from './pages/superblocks/web3';
+import Solana from './pages/superblocks/solana';
+import Near from './pages/superblocks/near';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' component={<Home />} />
+        {/*<Route path='/web3' component={<Web3 />} />
+        <Route path='/solana' component={<Solana />} />
+        <Route path='/near' component={<Near />} />*/}
+      </Routes>
+    </BrowserRouter>
   );
 }
 

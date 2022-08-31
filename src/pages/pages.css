@@ -1,0 +1,10 @@
+.main {
+  width: 780px;
+  margin: 0 auto;
+  padding-top: 4vw;
+}
+
+.main h1 {
+  text-align: center;
+  margin-bottom: 4vw;
+}
