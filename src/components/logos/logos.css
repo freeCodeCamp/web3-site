@@ -16,12 +16,17 @@
   height: 2vw;
 }
 
+.web3-logo {
+  fill: var(--primary-color);
+}
+
 .web3-logo-spacer {
   height: 0.75vw;
 }
 
 .web3-logo-text {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  color: var(--primary-color);
 }
 
 @media (max-width: 780px) {
