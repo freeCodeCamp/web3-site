@@ -1,3 +1,9 @@
+.superblock-logo-wrap {
+  margin: 0 auto;
+  width: 30%;
+  min-width: 234px;
+}
+
 .project-wrap {
   background-color: white;
   padding: 20px 25px;

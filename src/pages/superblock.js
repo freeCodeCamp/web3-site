@@ -1,16 +1,19 @@
 import Spacer from '../components/helpers/spacer';
+import Logo from '../components/helpers/logo';
 import { coursesInfo } from '../static/courses';
 
 import './superblock.css';
 
 const Superblock = ({ superblock }) => {
   const superBlockInfo = coursesInfo.find(course => course.name === superblock);
-  const { title, description, blocks, repo, repoName } = superBlockInfo;
+  const { name, description, blocks, repo, repoName } = superBlockInfo;
 
   return (
     <main className='main'>
-      <h1>{title}</h1>
-      <Spacer />
+      <div className='superblock-logo-wrap'>
+        <Logo name={name} />
+      </div>
+      <Spacer size={2} />
 
       <section className='section'>
         <p>{description}</p>

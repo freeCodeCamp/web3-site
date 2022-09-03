@@ -78,9 +78,6 @@ export const coursesInfo = [
     repo: 'https://github.com/freeCodeCamp/solana-curriculum',
     repoName: 'solana-curriculum',
     description: `Here's the solana description.`,
-    logo: 'solana.png',
-    backgroundColor: '#000000',
-    textColor: '#ffffff',
     showCourse: true,
     blocks: [
       {
@@ -128,9 +125,6 @@ export const coursesInfo = [
     repo: 'https://github.com/freeCodeCamp/near-curriculum',
     repoName: 'near-curriculum',
     description: `Here's the near description.`,
-    logo: 'near.png',
-    backgroundColor: '#242526',
-    textColor: '#ffffff',
     showCourse: true,
     blocks: [
       {

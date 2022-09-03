@@ -44,6 +44,7 @@ function Web3Logo(props) {
           </g>
         </g>
       </svg>
+      <div className='web3-logo-spacer'></div>
       <div className='web3-logo-text'>Web 3</div>
     </div>
   );

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import FreeCodeCampLogo from './icons/freecodecamp-logo.js';
+import FreeCodeCampLogo from './logos/freecodecamp-logo.js';
 
 import './nav.css';
 

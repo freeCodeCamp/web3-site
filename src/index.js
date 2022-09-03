@@ -20,6 +20,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Nav />
+      <Spacer size={3} />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route

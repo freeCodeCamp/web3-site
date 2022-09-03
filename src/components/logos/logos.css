@@ -1,0 +1,69 @@
+.logo-wrap {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.solana-logo-wrap {
+  width: 66%;
+}
+
+.solana-logo-spacer {
+  height: 2vw;
+}
+
+.web3-logo-spacer {
+  height: 0.75vw;
+}
+
+.web3-logo-text {
+  font-size: 3rem;
+}
+
+/*** Colors for different protocols ***/
+/* Web3 */
+.btn-main-web3 {
+  background-color: var(--quaternary-background);
+  color: var(--primary-color);
+  fill: var(--primary-color);
+  border: 4.5px solid var(--primary-color);
+}
+
+.btn-main-web3:hover,
+.btn-main-web3:focus,
+.btn-main-web3:active:hover {
+  background-color: var(--primary-color);
+  fill: var(--quaternary-background);
+  color: var(--quaternary-background);
+}
+
+/* Solana */
+.btn-main-solana {
+  background-color: white;
+  color: black;
+  border: 4.5px solid black;
+}
+
+.btn-main-solana:hover,
+.btn-main-solana:focus,
+.btn-main-solana:active:hover {
+  background-color: black;
+  fill: white;
+}
+
+/* NEAR */
+.btn-main-near {
+  color: black;
+  border: 4.5px solid black;
+}
+
+.btn-main-near:hover,
+.btn-main-near:focus,
+.btn-main-near:active:hover {
+  background-color: black;
+  fill: white;
+}

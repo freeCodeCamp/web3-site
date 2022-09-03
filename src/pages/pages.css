@@ -3,7 +3,6 @@
   width: 780px;
   max-width: 100%;
   margin: 0 auto;
-  padding-top: var(--section-spacer);
 }
 
 @media (min-width: 1280px) {
@@ -19,46 +18,4 @@
 section {
   max-width: 90%;
   margin: 0 auto;
-}
-
-/*** Colors for different protocols ***/
-/* Web3 */
-.btn-main-web3 {
-  background-color: var(--quaternary-background);
-  color: var(--primary-color);
-  border: 4.5px solid var(--primary-color);
-}
-
-.btn-main-web3:hover,
-.btn-main-web3:focus,
-.btn-main-web3:active:hover {
-  background-color: var(--primary-color);
-  color: var(--primary-background);
-}
-
-/* Solana */
-.btn-main-solana {
-  background-color: white;
-  color: black;
-  border: 4.5px solid black;
-}
-
-.btn-main-solana:hover,
-.btn-main-solana:focus,
-.btn-main-solana:active:hover {
-  background-color: black;
-  fill: white;
-}
-
-/* NEAR */
-.btn-main-near {
-  color: black;
-  border: 4.5px solid black;
-}
-
-.btn-main-near:hover,
-.btn-main-near:focus,
-.btn-main-near:active:hover {
-  background-color: black;
-  fill: white;
 }
