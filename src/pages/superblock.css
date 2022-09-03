@@ -1,0 +1,17 @@
+.project-wrap {
+  background-color: white;
+  padding: 20px 25px;
+  margin-bottom: 5px;
+}
+
+.project-wrap p {
+  padding-left: 25px;
+}
+
+.prerequisites li {
+  margin-bottom: 5px;
+}
+
+.instructions li {
+  margin-bottom: 15px;
+}

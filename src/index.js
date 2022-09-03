@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
+import { coursePaths, courseNames } from './static/courses';
+
 import Home from './pages/home';
 import Superblock from './pages/superblock';
 import Nav from './components/nav';
+import Spacer from './components/helpers/spacer';
 
 import './fonts.css';
 import './variables.css';
 import './global.css';
-// import './index.css';
 
 // import reportWebVitals from './reportWebVitals';
 
@@ -20,14 +22,33 @@ root.render(
       <Nav />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/web3' element={<Superblock superblock='web3' />} />
-        <Route path='/web3/*' element={<Navigate to='/web3' replace />} />
-        <Route path='/solana/' element={<Superblock superblock='solana' />} />
-        <Route path='/solana/*' element={<Navigate to='/solana' replace />} />
-        <Route path='/near/' element={<Superblock superblock='near' />} />
-        <Route path='/near/*' element={<Navigate to='/near' replace />} />
+        <Route
+          path={coursePaths.web3}
+          element={<Superblock superblock={courseNames.web3} />}
+        />
+        <Route
+          path={`${coursePaths.web3}/*`}
+          element={<Navigate to={coursePaths.web3} replace />}
+        />
+        <Route
+          path={coursePaths.solana}
+          element={<Superblock superblock={courseNames.solana} />}
+        />
+        <Route
+          path={`${coursePaths.solana}/*`}
+          element={<Navigate to={coursePaths.solana} replace />}
+        />
+        <Route
+          path={coursePaths.near}
+          element={<Superblock superblock={courseNames.near} />}
+        />
+        <Route
+          path={`${coursePaths.near}/*`}
+          element={<Navigate to={coursePaths.near} replace />}
+        />
         <Route path='*' element={<Navigate to='/' replace />} />
       </Routes>
+      <Spacer size={3} />
     </BrowserRouter>
   </React.StrictMode>
 );

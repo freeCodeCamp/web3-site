@@ -1,0 +1,21 @@
+.logo-wrap {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.solana-logo-wrap {
+  width: 66%;
+}
+
+.solana-logo-spacer {
+  height: 2vw;
+}
+
+.web3-logo-text {
+  font-size: 1rem;
+}

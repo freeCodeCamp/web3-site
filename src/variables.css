@@ -1,5 +1,7 @@
 :root {
   --header-height: 38px;
+  --section-spacer: calc(20px + 4vw);
+
   --theme-color: #0a0a23;
   --yellow-gold: #ffbf00;
   --gray-00: #ffffff;

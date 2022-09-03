@@ -1,20 +1,54 @@
 import React from 'react';
 
-function Network(props) {
+function Web3Logo(props) {
   return (
-    <>
+    <div className='logo-wrap'>
       <svg
-        aria-hidden='true'
-        viewBox='0 0 640 512'
         xmlns='http://www.w3.org/2000/svg'
+        xmlnsXlink='http://www.w3.org/1999/xlink'
+        version='1.1'
+        width='100%'
+        height='100%'
+        viewBox='0 0 640 640'
+        xmlSpace='preserve'
         {...props}
       >
-        <path d='M568 368c-19.1 0-36.3 7.6-49.2 19.7L440.6 343c4.5-12.2 7.4-25.2 7.4-39 0-61.9-50.1-112-112-112-8.4 0-16.6 1.1-24.4 2.9l-32.2-69c15-13.2 24.6-32.3 24.6-53.8 0-39.8-32.2-72-72-72s-72 32.2-72 72 32.2 72 72 72c.9 0 1.8-.2 2.7-.3l33.5 71.7C241.5 235.9 224 267.8 224 304c0 61.9 50.1 112 112 112 30.7 0 58.6-12.4 78.8-32.5l82.2 47c-.4 3.1-1 6.3-1 9.5 0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72zM232 96c-13.2 0-24-10.8-24-24s10.8-24 24-24 24 10.8 24 24-10.8 24-24 24zm104 272c-35.3 0-64-28.7-64-64s28.7-64 64-64 64 28.7 64 64-28.7 64-64 64zm232 96c-13.2 0-24-10.8-24-24s10.8-24 24-24 24 10.8 24 24-10.8 24-24 24zm-54.4-261.2l-19.2-25.6-48 36 19.2 25.6 48-36zM576 192c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zM152 320h48v-32h-48v32zm-88-80c-35.3 0-64 28.7-64 64s28.7 64 64 64 64-28.7 64-64-28.7-64-64-64z' />
+        <desc>Created with Fabric.js 4.6.0</desc>
+        <defs></defs>
+        <g transform='matrix(7.89 0 0 8.61 320 320)' id='XMK7_ZUBHHDyY5X6AEMad'>
+          <g vector-effect='non-scaling-stroke'>
+            <g transform='matrix(1 0 0 1 0 23.2)' id='i6nSNv03SfxrIzkfcIOXo'>
+              <path
+                vector-effect='non-scaling-stroke'
+                transform=' translate(-40, -63.2)'
+                d='M 80 56.2 L 40 76.6 L 0 56.2 L 12.4 49.800000000000004 L 40 63.800000000000004 L 67.6 49.800000000000004 L 80 56.2 z'
+                stroke-linecap='round'
+              />
+            </g>
+            <g transform='matrix(1 0 0 1 0 7.1)' id='cN9E2MKfMTUBK255LMRxN'>
+              <path
+                vector-effect='non-scaling-stroke'
+                transform=' translate(-40, -47.1)'
+                d='M 67.6 33.7 L 40 47.8 L 12.399999999999999 33.8 L 0 40.1 L 40 60.5 L 80 40.1 L 67.6 33.7 z'
+                stroke-linecap='round'
+              />
+            </g>
+            <g transform='matrix(1 0 0 1 0 -16.1)' id='8y9dGo9gdKI3Cn4eEdnZV'>
+              <path
+                vector-effect='non-scaling-stroke'
+                transform=' translate(-40, -23.9)'
+                d='M 40 3.4 L 0 24 L 40 44.4 L 80 24 L 40 3.4 z'
+                stroke-linecap='round'
+              />
+            </g>
+          </g>
+        </g>
       </svg>
-    </>
+      <div className='web3-logo-text'>Web 3</div>
+    </div>
   );
 }
 
-Network.displayName = 'Network';
+Web3Logo.displayName = 'Web3Logo';
 
-export default Network;
+export default Web3Logo;
