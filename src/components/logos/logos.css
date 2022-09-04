@@ -46,7 +46,13 @@
 
 .btn-main-web3:hover,
 .btn-main-web3:focus,
-.btn-main-web3:active:hover {
+.btn-main-web3:active:hover,
+.btn-main-web3:hover .web3-logo-text,
+.btn-main-web3:focus .web3-logo-text,
+.btn-main-web3:active:hover .web3-logo-text,
+.btn-main-web3:hover .web3-logo,
+.btn-main-web3:focus .web3-logo,
+.btn-main-web3:active:hover .web3-logo {
   background-color: var(--primary-color);
   fill: var(--quaternary-background);
   color: var(--quaternary-background);
