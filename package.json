@@ -19,6 +19,8 @@
     "web-vitals": "2.1.4"
   },
   "devDependencies": {
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
     "parcel": "^2.7.0",
     "prettier": "2.7.1",
     "process": "^0.11.10"
