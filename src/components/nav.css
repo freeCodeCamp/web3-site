@@ -18,6 +18,11 @@
   height: 30px;
 }
 
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
 .nav-middle a {
   text-decoration: none;
   display: block;
