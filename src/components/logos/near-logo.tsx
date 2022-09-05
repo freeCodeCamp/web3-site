@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { SVGProps } from 'react';
 
-function NearLogo(props) {
+function NearLogo(props: Partial<SVGProps<SVGSVGElement>>) {
   return (
     <div className='logo-wrap'>
       <svg

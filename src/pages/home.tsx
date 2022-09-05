@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Spacer from '../components/helpers/spacer';
 import Logo from '../components/helpers/logo';
@@ -10,7 +11,9 @@ import { coursesInfo } from '../static/courses';
 // keep web3 first, randomize the rest
 const web3Course = coursesInfo.shift();
 coursesInfo.sort(() => Math.random() - 0.5);
-coursesInfo.unshift(web3Course);
+if (web3Course) {
+  coursesInfo.unshift(web3Course);
+}
 
 const Home = () => (
   <main className='main'>
