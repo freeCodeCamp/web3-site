@@ -1,3 +1,4 @@
+import React from 'react';
 import Spacer from '../components/helpers/spacer';
 import Logo from '../components/helpers/logo';
 import { coursesInfo } from '../static/courses';
@@ -6,6 +7,11 @@ import './superblock.css';
 
 const Superblock = ({ superblock }) => {
   const superBlockInfo = coursesInfo.find(course => course.name === superblock);
+
+  if (!superBlockInfo) {
+    return null;
+  }
+
   const { name, description, blocks, repo, repoName } = superBlockInfo;
 
   return (
@@ -88,13 +94,13 @@ const Superblock = ({ superblock }) => {
             repo with: <code>git clone {repo}</code>
           </li>
         </ol>
-        <ol start='2'>
+        <ol start={2}>
           <li>
             Navigate to the <code>{repoName}</code> directory, and open it in a
             VS Code workspace with: <code>code .</code>
           </li>
         </ol>
-        <ol start='3' className='instructions'>
+        <ol start={3} className='instructions'>
           <li>
             Press <code>Ctrl / Cmd + Shift + P</code> to open the command
             palette, and run{' '}

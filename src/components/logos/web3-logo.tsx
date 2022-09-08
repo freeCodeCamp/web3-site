@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { SVGProps } from 'react';
 
-function Web3Logo(props) {
+function Web3Logo(props: Partial<SVGProps<SVGSVGElement>>) {
   return (
     <div className='logo-wrap'>
       <svg

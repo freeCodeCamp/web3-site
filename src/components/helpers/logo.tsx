@@ -1,3 +1,4 @@
+import React from 'react';
 import Web3Logo from '../logos/web3-logo';
 import SolanaLogo from '../logos/solana-logo';
 import NearLogo from '../logos/near-logo';

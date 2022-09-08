@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { SVGProps } from 'react';
 
 import './logos.css';
 
-function SolanaLogo(props) {
+function SolanaLogo(props: Partial<SVGProps<SVGSVGElement>>) {
   return (
     <div className='logo-wrap solana-logo-wrap'>
       <svg

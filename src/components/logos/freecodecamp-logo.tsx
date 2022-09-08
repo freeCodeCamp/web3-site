@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { SVGProps } from 'react';
 
-function FreeCodeCampLogo(props) {
+function FreeCodeCampLogo(props: Partial<SVGProps<SVGSVGElement>>) {
   return (
     <svg
       height={24}
