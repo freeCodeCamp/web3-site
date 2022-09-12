@@ -3,7 +3,7 @@ import React, { SVGProps } from 'react';
 import './logos.css';
 
 function SolanaLogo({ jumbotron }: { jumbotron: boolean }) {
-  const logoText = jumbotron ? <h1>Solana</h1> : <h2>Sonala</h2>;
+  const logoText = jumbotron ? <h1>Solana</h1> : <h2>Solana</h2>;
   return (
     <div className='logo-wrap solana-logo-wrap'>
       <svg
