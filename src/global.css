@@ -15,7 +15,7 @@ body {
   padding: 0;
   padding-top: 38px;
   height: 100%;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Lato', sans-serif;
   color: var(--secondary-color);
   background-color: var(--secondary-background);
 }
@@ -67,14 +67,14 @@ body {
 h1 {
   color: var(--secondary-color);
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 3.8rem;
   font-family: 'Roboto Mono', monospace;
   margin: 0.6rem 0;
 }
 h2 {
   color: var(--secondary-color);
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.7rem;
   font-family: 'Roboto Mono', monospace;
   margin: 0.6rem 0;
 }
@@ -99,6 +99,12 @@ th {
   margin: 0 0 1.2rem;
 }
 
+p,
+td,
+th {
+  font-family: 'Lato', sans-serif;
+}
+
 p {
   line-height: 1.5rem;
 }
@@ -116,14 +122,16 @@ p {
   .big-heading {
     font-size: 1.5rem !important;
   }
-  h1 {
-    font-size: 1.3rem;
+
+  h1{
+    font-size: 2.5rem;
   }
+
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   h3 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   .btn-cta,
   .btn-cta-big {

@@ -16,6 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-height: 300px;
 }
 
 .li-main-web3 {
@@ -26,31 +27,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: calc(250px + 6vw);
-  height: calc(250px + 6vw);
-  min-width: calc(250px + 6vw);
-  min-height: calc(250px + 6vw);
-  max-width: 80%;
-  max-width: 80%;
+  width: 250px;
+  height: 250px;
   text-decoration: none;
+}
+
+.btn-main h2 {
+  font-size:1.5em;
+  margin-bottom: 0px;
 }
 
 .home-logo-wrap {
   width: 100%;
 }
 
+.home-logo-wrap svg {
+  height: 100px;
+  margin-bottom: 24px;
+}
+
 @media (max-width: 780px) {
   .li-main {
     width: 100%;
   }
-
-  .btn-main {
-    width: calc(200px + 6vw);
-    height: calc(200px + 6vw);
-    min-width: calc(200px + 6vw);
-    min-height: calc(200px + 6vw);
-  }
-
   .ul-main {
     row-gap: 0px;
   }
