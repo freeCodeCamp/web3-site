@@ -78,7 +78,7 @@ export const coursesInfo = [
     homepage: 'https://solana.org/',
     repo: 'https://github.com/freeCodeCamp/solana-curriculum',
     repoName: 'solana-curriculum',
-    description: 'The Solana Foundation is a non-profit organization headquartered in Zug, Switzerland, dedicated to the decentralization, growth, and security of the Solana network.',
+    description: 'Learn the Solana blockchain protocol with guided interactive projects and challenging integrated projects by completing the courses below.',
     showCourse: true,
     blocks: [
       {
@@ -104,7 +104,7 @@ export const coursesInfo = [
     homepage: 'https://near.foundation/',
     repo: 'https://github.com/freeCodeCamp/near-curriculum',
     repoName: 'near-curriculum',
-    description: 'NEAR is a non-profit foundation headquartered in Switzerland that is responsible for contracting protocol maintainers, funding ecosystem development, and shepherding core governance of the NEAR protocol.',
+    description: 'Learn the NEAR blockchain protocol with guided interactive projects and challenging integrated projects by completing the courses below.',
     showCourse: true,
     blocks: [
       {
