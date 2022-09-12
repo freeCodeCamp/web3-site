@@ -6,7 +6,7 @@
   "distDir": "build",
   "scripts": {
     "develop": "parcel public/index.html --dist-dir build",
-    "build": "parcel build --dist-dir build",
+    "build": "parcel public/index.html --dist-dir build",
     "format": "npx prettier --write ."
   },
   "dependencies": {
