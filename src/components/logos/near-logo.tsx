@@ -2,7 +2,7 @@ import React, { SVGProps } from 'react';
 import Spacer from '../helpers/spacer';
 
 function NearLogo({ jumbotron }: { jumbotron: boolean }) {
-  const logoText = jumbotron ? <h1>Near</h1> : <h2>Near</h2>;
+  const logoText = jumbotron ? <h1>NEAR</h1> : <h2>NEAR</h2>;
   return (
     <div className='logo-wrap'>
       <svg
