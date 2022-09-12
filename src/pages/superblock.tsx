@@ -13,11 +13,12 @@ const Superblock = ({ superblock }) => {
   }
 
   const { name, description, blocks, repo, repoName } = superBlockInfo;
+  const capitalizedName = name[0].toUpperCase() + name.slice(1);
 
   return (
     <main className='main'>
       <div className='superblock-logo-wrap'>
-        <Logo name={name} />
+        <Logo name={name} jumbotron={true} />
       </div>
       <Spacer size={2} />
 
@@ -30,12 +31,12 @@ const Superblock = ({ superblock }) => {
         <Spacer size={2} />
       </section>
       <section>
-        <h1>Courses</h1>
+        <h2>{capitalizedName} courses</h2>
         <Spacer />
         {blocks.map((block, i) => (
           <div key={i}>
             <div className='project-wrap'>
-              <h2>{block.title}</h2>
+              <h3>{block.title}</h3>
               {block.summary.map((text, i) => (
                 <p key={i}>{text}</p>
               ))}
@@ -46,9 +47,9 @@ const Superblock = ({ superblock }) => {
       <Spacer size={2} />
 
       <section id='instructions'>
-        <h1>How to run the courses</h1>
+        <h2>How to run the courses</h2>
         <Spacer />
-        <h2>Prerequisites</h2>
+        <h3>Prerequisites</h3>
         <p>
           Before you get started, make sure you have these installed on your
           computer:
@@ -83,7 +84,7 @@ const Superblock = ({ superblock }) => {
           </li>
           <li>Git</li>
         </ul>
-        <h2>How to Run the Courses in Docker</h2>
+        <h3>How to Run the Courses in Docker</h3>
         <p>Follow these instructions to clone the repo and run the courses:</p>
         <ol>
           <li>
