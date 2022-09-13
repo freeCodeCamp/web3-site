@@ -2,14 +2,14 @@
   "name": "web3-site",
   "version": "0.1.0",
   "private": true,
-  "main": "src/index.js",
   "distDir": "build",
   "scripts": {
     "develop": "parcel public/index.html --dist-dir build",
-    "build": "parcel public/index.html --dist-dir build",
+    "build": "parcel build public/index.html --dist-dir build",
     "format": "npx prettier --write ."
   },
   "dependencies": {
+    "@swc/helpers": "0.4.11",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "13.5.0",
