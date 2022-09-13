@@ -1,8 +1,11 @@
 {
   "name": "web3-site",
   "version": "0.1.0",
+  "description": "The freeCodeCamp.org open-source codebase and web3 curriculum",
   "private": true,
   "distDir": "build",
+  "homepage": "https://web3.freecodecamp.org",
+  "author": "freeCodeCamp <team@freecodecamp.org>",
   "scripts": {
     "develop": "parcel public/index.html --dist-dir build",
     "build": "parcel build public/index.html --dist-dir build",
@@ -10,9 +13,6 @@
   },
   "dependencies": {
     "@swc/helpers": "0.4.11",
-    "@testing-library/jest-dom": "5.16.5",
-    "@testing-library/react": "13.4.0",
-    "@testing-library/user-event": "13.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.3.0",
@@ -42,5 +42,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/freeCodeCamp/web3-site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeCodeCamp/web3-site.git"
+  },
+  "license": "BSD-3-Clause"
 }
