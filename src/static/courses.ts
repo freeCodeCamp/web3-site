@@ -1,7 +1,7 @@
 export const courseNames = {
   web3: 'web3',
   solana: 'solana',
-  near: 'NEAR'
+  near: 'near'
 };
 
 export const courseTitles = {

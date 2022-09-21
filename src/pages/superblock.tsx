@@ -12,8 +12,7 @@ const Superblock = ({ superblock }) => {
     return null;
   }
 
-  const { name, description, blocks, repo, repoName } = superBlockInfo;
-  const capitalizedName = name[0].toUpperCase() + name.slice(1);
+  const { name, description, blocks, repo, repoName, title } = superBlockInfo;
 
   return (
     <main className='main'>
@@ -31,7 +30,7 @@ const Superblock = ({ superblock }) => {
         <Spacer size={2} />
       </section>
       <section>
-        <h2>{capitalizedName} courses</h2>
+        <h2>{title} courses</h2>
         <Spacer />
         {blocks.map((block, i) => (
           <div key={i}>
