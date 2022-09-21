@@ -17,7 +17,7 @@ if (web3Course) {
 
 const Home = () => (
   <main className='main'>
-    <h1>Learn Web 3</h1>
+    <h1>Learn Web3</h1>
     <Spacer />
 
     <section className='section'>

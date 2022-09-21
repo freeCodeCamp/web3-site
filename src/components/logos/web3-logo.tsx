@@ -1,7 +1,7 @@
 import React, { SVGProps } from 'react';
 
 function Web3Logo({ jumbotron }: { jumbotron: boolean }) {
-  const logoText = jumbotron ? <h1>Web 3</h1> : <h2> Web 3</h2>;
+  const logoText = jumbotron ? <h1>Web3</h1> : <h2> Web3</h2>;
   return (
     <div className='logo-wrap'>
       <svg
@@ -14,7 +14,7 @@ function Web3Logo({ jumbotron }: { jumbotron: boolean }) {
         viewBox='0 0 640 640'
         xmlSpace='preserve'
       >
-        <desc>Created with Fabric.js 4.6.0</desc>
+        <desc>web3 logo</desc>
         <defs></defs>
         <g transform='matrix(7.89 0 0 8.61 320 320)' id='XMK7_ZUBHHDyY5X6AEMad'>
           <g vectorEffect='non-scaling-stroke'>

@@ -5,7 +5,7 @@ export const courseNames = {
 };
 
 export const courseTitles = {
-  web3: 'Web 3',
+  web3: 'Web3',
   solana: 'Solana',
   near: 'NEAR'
 };
