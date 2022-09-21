@@ -31,7 +31,8 @@ export const coursesInfo = [
     homepage: null,
     repo: 'https://github.com/freeCodeCamp/web3-curriculum',
     repoName: 'web3-curriculum',
-    description: 'These courses will teach you blockchain concepts in a protocol agnostic way so that you can use what you learn with any protocol.',
+    description:
+      'These courses will teach you blockchain concepts in a protocol agnostic way so that you can use what you learn with any protocol.',
     showCourse: true,
     blocks: [
       {
@@ -78,11 +79,13 @@ export const coursesInfo = [
     homepage: 'https://solana.org/',
     repo: 'https://github.com/freeCodeCamp/solana-curriculum',
     repoName: 'solana-curriculum',
-    description: 'Learn the Solana blockchain protocol with guided interactive projects and challenging integrated projects by completing the courses below.',
+    description:
+      'Learn the Solana blockchain protocol with guided interactive projects and challenging integrated projects by completing the courses below.',
     showCourse: true,
     blocks: [
       {
-        title: 'Learn How to Set Up Solana by Building a Hello World Smart Contract',
+        title:
+          'Learn How to Set Up Solana by Building a Hello World Smart Contract',
         type: projectTypes.practice,
         summary: [
           'In this interactive project, you will be guided through building and deploying a smart contract to a Solana blockchain.'
@@ -104,11 +107,13 @@ export const coursesInfo = [
     homepage: 'https://near.foundation/',
     repo: 'https://github.com/freeCodeCamp/near-curriculum',
     repoName: 'near-curriculum',
-    description: 'Learn the NEAR blockchain protocol with guided interactive projects and challenging integrated projects by completing the courses below.',
+    description:
+      'Learn the NEAR blockchain protocol with guided interactive projects and challenging integrated projects by completing the courses below.',
     showCourse: true,
     blocks: [
       {
-        title: 'Learn How to Set Up NEAR by Building a Hello World Smart Contract',
+        title:
+          'Learn How to Set Up NEAR by Building a Hello World Smart Contract',
         type: projectTypes.practice,
         summary: [
           'In this interactive project, you will be guided through building and deploying a smart contract to the NEAR testnet blockchain.'
