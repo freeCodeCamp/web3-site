@@ -3,6 +3,7 @@ import React, { SVGProps } from 'react';
 function FreeCodeCampLogo(props: Partial<SVGProps<SVGSVGElement>>) {
   return (
     <svg
+      aria-label='freeCodeCamp Web3 Curriculum'
       height={24}
       version='1.1'
       viewBox='0 0 210 24'
