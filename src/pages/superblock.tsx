@@ -5,7 +5,11 @@ import { coursesInfo } from '../static/courses';
 
 import './superblock.css';
 
-const Superblock = ({ superblock }) => {
+interface SuperblockProps {
+  superblock: string;
+}
+
+const Superblock = ({ superblock }: SuperblockProps) => {
   const superBlockInfo = coursesInfo.find(course => course.name === superblock);
 
   if (!superBlockInfo) {
@@ -77,7 +81,7 @@ const Superblock = ({ superblock }) => {
               rel='noreferrer'
               href='https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers'
             >
-              Remote Containers
+              Dev Containers
             </a>{' '}
             extension
           </li>
@@ -105,7 +109,7 @@ const Superblock = ({ superblock }) => {
             Press <code>Ctrl / Cmd + Shift + P</code> to open the command
             palette, and run{' '}
             <code>
-              Remote-Containers: Rebuild Container and Reopen in Container
+              Dev Containers: Rebuild Container and Reopen in Container
             </code>
             . VS Code will build the container to run the projects in, it will
             take a few minutes the first time.
