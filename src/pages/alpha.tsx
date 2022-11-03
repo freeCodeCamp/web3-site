@@ -1,19 +1,19 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { Instructions } from '../components/instructions';
 
 export const Alpha = () => {
   const { course } = useParams();
   return (
-    <main>
-      <Instructions
-        repo={
-          (course &&
-            `https://github.com/freeCodeCamp/${course}-curriculum.git`) ||
-          ''
-        }
-        repoName={course || ''}
-      />
+    <main className='main'>
+      <section id='instructions'>
+        <p>
+          Follow the instructions at <a href={`/${course}`}>/{course}</a>.
+        </p>
+        <p>
+          After cloning the repo, checkout the <code>next</code> branch to work
+          with the alpha content.
+        </p>
+      </section>
       <section>
         <h2>Thanks for being an alpha tester 🎉</h2>
         <p>
@@ -21,8 +21,6 @@ export const Alpha = () => {
         </p>
         <p>Here are some things that would be helpful:</p>
         <ol>
-          <li>Are the instructions accurate?</li>
-          <li>Were you able to start the course?</li>
           <li>Was the project accurate?</li>
           <li>Did you enjoy the project?</li>
           <li>Did you struggle with any specific lessons/steps?</li>
