@@ -8,6 +8,7 @@ import Home from './pages/home';
 import Superblock from './pages/superblock';
 import Nav from './components/nav';
 import Spacer from './components/helpers/spacer';
+import { Alpha } from './pages/alpha';
 
 import './fonts.css';
 import './variables.css';
@@ -51,6 +52,7 @@ root.render(
           path={`${coursePaths.near}/*`}
           element={<Navigate to={coursePaths.near} replace />}
         />
+        <Route path='/alpha/:course' element={<Alpha />} />
         <Route path='*' element={<Navigate to='/' replace />} />
       </Routes>
       <Spacer size={3} />
