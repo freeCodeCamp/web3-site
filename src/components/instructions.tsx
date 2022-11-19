@@ -21,7 +21,7 @@ export const Instructions = ({ repo, repoName }: InstructionsProps) => {
           <a
             target='_blank'
             rel='noreferrer'
-            href='https://docs.docker.com/engine/'
+            href='https://docs.docker.com/engine/install/'
           >
             Docker Engine
           </a>
@@ -44,7 +44,15 @@ export const Instructions = ({ repo, repoName }: InstructionsProps) => {
           </a>{' '}
           extension
         </li>
-        <li>Git</li>
+        <li>
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://git-scm.com/downloads'
+          >
+            Git
+          </a>
+        </li>
       </ul>
       <h3>How to Run the Courses in Docker</h3>
       <p>Follow these instructions to clone the repo and run the courses:</p>
