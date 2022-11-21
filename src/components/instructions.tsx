@@ -54,7 +54,7 @@ export const Instructions = ({ repo, repoName }: InstructionsProps) => {
           </a>
         </li>
       </ul>
-      <h3>How to Run the Courses in Docker</h3>
+      <h3>How to run the courses in Docker</h3>
       <p>Follow these instructions to clone the repo and run the courses:</p>
       <ol>
         <li>
@@ -98,7 +98,7 @@ export const Instructions = ({ repo, repoName }: InstructionsProps) => {
       </p>
 
       <h3>How to add newly available courses</h3>
-      <p>If you have previously cloned the repo and run the courses, follow these instructions to get all the latest content</p>
+      <p>If you have previously cloned the repo and run the courses, follow these instructions to get all the latest content:</p>
       <ol className='instructions'>
         <li>
           Navigate to the <code>{repoName}</code> repo in your terminal.
