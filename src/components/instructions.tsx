@@ -54,7 +54,7 @@ export const Instructions = ({ repo, repoName }: InstructionsProps) => {
           </a>
         </li>
       </ul>
-      <h3>How to Run the Courses in Docker</h3>
+      <h3>How to run the courses in Docker</h3>
       <p>Follow these instructions to clone the repo and run the courses:</p>
       <ol>
         <li>
@@ -96,6 +96,20 @@ export const Instructions = ({ repo, repoName }: InstructionsProps) => {
         If you want to switch projects, click the freeCodeCamp logo at the top
         to get back to the home page.
       </p>
+
+      <h3>How to add newly available courses</h3>
+      <p>If you have previously cloned the repo and run the courses, follow these instructions to get all the latest content:</p>
+      <ol className='instructions'>
+        <li>
+          Navigate to the <code>{repoName}</code> repo in your terminal.
+        </li>
+        <li>
+          Make sure you are on the <code>main</code> branch of the repo, and run <code>git pull</code> to add all the latest changes.
+        </li>
+        <li>
+          Follow the instructions above to run the courses.
+        </li>
+      </ol>
     </section>
   );
 };
