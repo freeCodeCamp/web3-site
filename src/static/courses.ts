@@ -92,16 +92,14 @@ export const coursesInfo = [
         ]
       },
       {
-        title:
-          'Learn How to Interact with On-Chain Programs',
+        title: 'Learn How to Interact with On-Chain Programs',
         type: projectTypes.practice,
         summary: [
           'In this course, you will learn how to write the client code to interact with your previously deployed hello world smart contract.'
         ]
       },
       {
-        title:
-          'Build a Smart Contract',
+        title: 'Build a Smart Contract',
         type: projectTypes.integrated,
         summary: [
           'In this integrated project, you will use what you previously learned to build a smart contract, and interact with it.'
@@ -136,10 +134,24 @@ export const coursesInfo = [
         ]
       },
       {
+        title: 'Learn NEAR Smart Contracts by Building a Word Guessing Game',
+        type: projectTypes.practice,
+        summary: [
+          'In this interactive project, you will learn more features of NEAR smart contracts while building a word guessing game.'
+        ]
+      },
+      {
+        title: 'Build a Sentence Making Smart Contract',
+        type: projectTypes.integrated,
+        summary: [
+          "In this integrated project, you test what you've learned by building a NEAR smart contract where you add words to a string, one at a time, to form a sentence."
+        ]
+      },
+      {
         title: 'Coming Soon',
         type: projectTypes.other,
         summary: [
-          '14 more courses and projects that will teach you the NEAR blockchain and test your knowledge are coming soon!'
+          '12 more courses and projects that will teach you the NEAR blockchain and test your knowledge are coming soon!'
         ]
       }
     ]
