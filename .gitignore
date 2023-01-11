@@ -9,6 +9,7 @@
 # production
 /build
 
+# debugs
 npm-debug.log*
 .parcel-cache
 .DS_Store
