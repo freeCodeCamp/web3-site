@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Spacer from '../components/helpers/spacer';
 import Logo from '../components/helpers/logo';
 import { coursesInfo } from '../static/courses';
@@ -29,8 +30,8 @@ const Superblock = ({ superblock }: SuperblockProps) => {
       <section className='section'>
         <p>{description}</p>
         <p>
-          <a href='#instructions'>Jump to the instructions at the bottom</a> to
-          learn how to run the courses.
+          <Link to='#instructions'>Jump to the instructions at the bottom</Link>{' '}
+          to learn how to run the courses.
         </p>
         <Spacer size={2} />
       </section>
