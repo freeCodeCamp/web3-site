@@ -36,6 +36,27 @@ export const coursesInfo = [
     showCourse: true,
     blocks: [
       {
+        title: 'Learn Digital Ledgers by Building a Blockchain',
+        type: projectTypes.practice,
+        summary: [
+          'In this course, you will learn how to build a blockchain from scratch using JavaScript.'
+        ]
+      },
+      {
+        title: 'Learn Proof of Work Consensus by Building a Block Mining Algorithm',
+        type: projectTypes.practice,
+        summary: [
+          'In this course, you will learn how to use the SHA-256 hashing algorithm make your blockchain more secure.'
+        ]
+      },
+      {
+        title: 'Learn Digital Signatures by Building a Wallet',
+        type: projectTypes.practice,
+        summary: [
+          'In this course, you will learn how to generate and use keypairs so you can verify users and transactions.'
+        ]
+      },
+      {
         title: 'Build a Video Game Marketplace Blockchain',
         type: projectTypes.integrated,
         summary: [
@@ -68,6 +89,13 @@ export const coursesInfo = [
         type: projectTypes.integrated,
         summary: [
           'In this integrated project, you will build a smart contract to store and run on your blockchain.'
+        ]
+      },
+      {
+        title: 'Coming Soon',
+        type: projectTypes.other,
+        summary: [
+          '9 more courses that will teach you blockchain concepts are coming soon!'
         ]
       }
     ]
