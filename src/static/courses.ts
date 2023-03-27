@@ -43,7 +43,8 @@ export const coursesInfo = [
         ]
       },
       {
-        title: 'Learn Proof of Work Consensus by Building a Block Mining Algorithm',
+        title:
+          'Learn Proof of Work Consensus by Building a Block Mining Algorithm',
         type: projectTypes.practice,
         summary: [
           'In this course, you will learn how to use the SHA-256 hashing algorithm make your blockchain more secure.'
@@ -131,6 +132,27 @@ export const coursesInfo = [
         type: projectTypes.integrated,
         summary: [
           'In this integrated project, you will use what you previously learned to build a smart contract, and interact with it.'
+        ]
+      },
+      {
+        title: "Learn Solana's Token Program by Minting a Fungible Token",
+        type: projectTypes.practice,
+        summary: [
+          "In this course, you will learn how to use Solana's token program by minting a fungible token."
+        ]
+      },
+      {
+        title: 'Learn the Metaplex SDK by Minting an NFT',
+        type: projectTypes.practice,
+        summary: [
+          'In this course, you will learn how to use the Metaplex JS SDK to mint an NFT.'
+        ]
+      },
+      {
+        title: 'Build a University Certification NFT',
+        type: projectTypes.integrated,
+        summary: [
+          'In this integrated project, you will use what you previously learnt to build-out the logic for an NFT-issuing system for university certifications.'
         ]
       },
       {
