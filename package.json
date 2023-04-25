@@ -12,7 +12,7 @@
     "format": "npx prettier --write ."
   },
   "dependencies": {
-    "@swc/helpers": "0.4.14",
+    "@swc/helpers": "0.5.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.10.0"
