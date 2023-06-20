@@ -152,14 +152,35 @@ export const coursesInfo = [
         title: 'Build a University Certification NFT',
         type: projectTypes.integrated,
         summary: [
-          'In this integrated project, you will use what you previously learnt to build-out the logic for an NFT-issuing system for university certifications.'
+          'In this integrated project, you will use what you previously learnt to build out the logic for an NFT-issuing system for university certifications.'
+        ]
+      },
+      {
+        title: 'Learn Anchor by Building Tic-Tac-Toe: Part 1',
+        type: projectTypes.practice,
+        summary: [
+          'In this course, you will learn how to use Anchor, a framework for building smart contracts on Solana, to build an on-chain Tic-Tac-Toe game.'
+        ]
+      },
+      {
+        title: 'Learn Anchor by Building Tic-Tac-Toe: Part 2',
+        type: projectTypes.practice,
+        summary: [
+          'In this course, you will learn how to test the previously built Tic-Tac-Toe game.'
+        ]
+      },
+      {
+        title: 'Build an Anchor Leaderboard',
+        type: projectTypes.integrated,
+        summary: [
+          'In this integrated project, you will use what you previously learned to build the program logic for a game leaderboard.'
         ]
       },
       {
         title: 'Coming Soon',
         type: projectTypes.other,
         summary: [
-          '12 more courses and projects that will teach you the Solana blockchain and test your knowledge are coming soon!'
+          '6 more courses and projects that will teach you the Solana blockchain and test your knowledge are coming soon!'
         ]
       }
     ]
