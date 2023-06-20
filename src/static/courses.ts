@@ -173,7 +173,7 @@ export const coursesInfo = [
         title: 'Build an Anchor Leaderboard',
         type: projectTypes.integrated,
         summary: [
-          'In this integrated project, you will use what you previously learnt to build the program logic for a game leaderboard.'
+          'In this integrated project, you will use what you previously learned to build the program logic for a game leaderboard.'
         ]
       },
       {
