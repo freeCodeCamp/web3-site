@@ -219,10 +219,32 @@ export const coursesInfo = [
         ]
       },
       {
+        title:
+          'Learn NEAR Accounts by Creating a Named Testnet Account',
+        type: projectTypes.practice,
+        summary: [
+          'In this course, you will learn about NEAR accounts by creating your own testnet account.'
+        ]
+      },
+      {
+        title: 'Learn How to Interact with NEAR Programs Using the NEAR JavaScript API and Node',
+        type: projectTypes.practice,
+        summary: [
+          'In this course, you will learn about the NEAR JavaScript API and how to use it to interact with programs stored on the NEAR blockchain.'
+        ]
+      },
+      {
+        title: 'Build a Fortune Telling Smart Contract',
+        type: projectTypes.integrated,
+        summary: [
+          "In this integrated project, you will use your testnet account to create and deploy a smart contract that can tell your fortune. Then a Node client to interact with the contract."
+        ]
+      },
+      {
         title: 'Coming Soon',
         type: projectTypes.other,
         summary: [
-          '12 more courses and projects that will teach you the NEAR blockchain and test your knowledge are coming soon!'
+          '9 more courses and projects that will teach you the NEAR blockchain and test your knowledge are coming soon!'
         ]
       }
     ]
