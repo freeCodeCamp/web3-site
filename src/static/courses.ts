@@ -177,10 +177,45 @@ export const coursesInfo = [
         ]
       },
       {
-        title: 'Coming Soon',
-        type: projectTypes.other,
+        title: 'Learn How to Build a Client-Side App: Part 1',
+        type: projectTypes.practice,
         summary: [
-          '6 more courses and projects that will teach you the Solana blockchain and test your knowledge are coming soon!'
+          'In this project, you will learn how to build a multi-player client-side app that interacts with your previously deployed Tic-Tac-Toe game.'
+        ]
+      },
+      {
+        title: 'Learn How to Build a Client-Side App: Part 2',
+        type: projectTypes.practice,
+        summary: [
+          'In this project, you will learn how to use the Phantom browser extension to connect to your local validator, connect your wallet to your dApp, and sign transactions.'
+        ]
+      },
+      {
+        title: 'Build a Client-Side App',
+        type: projectTypes.integrated,
+        summary: [
+          'In this integrated project, you will use what you previously learnt to build an app your friends can use to message one another.'
+        ]
+      },
+      {
+        title: 'Learn How to Build for Mainnet',
+        type: projectTypes.practice,
+        summary: [
+          'In this project, you will learn how to build a dApp from start to finish, preparing for deployment to mainnet-beta.'
+        ]
+      },
+      {
+        title: 'Learn How to Deploy to Devnet',
+        type: projectTypes.practice,
+        summary: [
+          'In this project, you will learn how to put an app on the public devnet.'
+        ]
+      },
+      {
+        title: 'Build and Deploy Your Freeform App',
+        type: projectTypes.integrated,
+        summary: [
+          'The final project of this course. Use what you have learnt to build and deploy your own app to the public devnet or mainnet-beta, and share your work with the world!'
         ]
       }
     ]
@@ -219,15 +254,15 @@ export const coursesInfo = [
         ]
       },
       {
-        title:
-          'Learn NEAR Accounts by Creating a Named Testnet Account',
+        title: 'Learn NEAR Accounts by Creating a Named Testnet Account',
         type: projectTypes.practice,
         summary: [
           'In this course, you will learn about NEAR accounts by creating your own testnet account.'
         ]
       },
       {
-        title: 'Learn How to Interact with NEAR Programs Using the NEAR JavaScript API and Node',
+        title:
+          'Learn How to Interact with NEAR Programs Using the NEAR JavaScript API and Node',
         type: projectTypes.practice,
         summary: [
           'In this course, you will learn about the NEAR JavaScript API and how to use it to interact with programs stored on the NEAR blockchain.'
@@ -237,7 +272,7 @@ export const coursesInfo = [
         title: 'Build a Fortune Telling Smart Contract',
         type: projectTypes.integrated,
         summary: [
-          "In this integrated project, you will use your testnet account to create and deploy a smart contract that can tell your fortune. Then a Node client to interact with the contract."
+          'In this integrated project, you will use your testnet account to create and deploy a smart contract that can tell your fortune. Then a Node client to interact with the contract.'
         ]
       },
       {
