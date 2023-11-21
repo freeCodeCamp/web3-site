@@ -18,8 +18,8 @@
     "react-router-dom": "6.19.0"
   },
   "devDependencies": {
-    "@types/react": "18.2.37",
-    "@types/react-dom": "18.2.15",
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.2.16",
     "parcel": "2.10.3",
     "prettier": "2.8.8",
     "process": "0.11.10"
